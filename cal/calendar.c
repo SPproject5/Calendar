@@ -294,7 +294,6 @@ void delete_schedule(Calendar *calendar, int month, int day, char schedule_name[
 }
 void modify_schedule(Calendar *calendar, int month, int day, char schedule_name[])
 {
-    Schedule schedule;
     int index;
     if(find_schedule(calendar, month, day, schedule_name, &index))
     {
